@@ -1,0 +1,21 @@
+.container {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.header {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
